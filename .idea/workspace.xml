@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56cdc41d-85e7-47ba-b4be-fafe6a5fbb68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.php" afterDir="false" />
     </list>
@@ -59,11 +62,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\codigo-aberto\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606823485643</updated>
-      <workItem from="1606823486967" duration="1177000" />
+      <workItem from="1606823486967" duration="6742000" />
     </task>
     <servers />
   </component>
@@ -92,17 +107,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606823763490">
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606827030315">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606823763490" />
-    <state x="2684" y="463" key="NewPhpFileDialog" timestamp="1606824384807">
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606827030315" />
+    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606826209390">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2684" y="463" key="NewPhpFileDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606824384807" />
+    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606826209390" />
+    <state x="2684" y="463" key="NewPhpFileDialog" timestamp="1606826203456">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2684" y="463" key="NewPhpFileDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606826203456" />
     <state x="2411" y="185" key="SettingsEditor" timestamp="1606823749204">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2411" y="185" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606823749204" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606829985067">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606829985066" />
   </component>
 </project>

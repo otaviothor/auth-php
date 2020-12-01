@@ -4,8 +4,57 @@ ob_start();
 session_start();
 
 require __DIR__ . "/vendor/autoload.php";
+use CoffeeCode\Router\Router;
 
-echo "<h1>olá</h1>";
+$router = new Router(site());
+$router->namespace("Source\Controllers");
+
+/**
+ * Web
+ */
+$router->group(null);
+$router->get("/", "Web:login", "web.login");
+$router->get("/cadastrar", "Web:register", "web.register");
+$router->get("/recuperar", "Web:forget", "web.forget");
+$router->get("/senha/{email}/{forget}", "Web:reset", "web.reset");
+
+/**
+ * Auth
+ */
+$router->get("/auth", function () {
+    echo "ok";
+}, "auth.login");
+$router->get("/auth/register", function () {
+    echo "ok";
+}, "auth.register");
+
+/**
+ * Auth social
+ */
+
+/**
+ * Profile
+ */
+
+/**
+ * Errors
+ */
+$router->group("ops");
+$router->get("/{errcode}", "Web:error", "web.error");
+
+/**
+ * Route proccess
+ */
+$router->dispatch();
+
+/**
+ * Errors proccess
+ */
+if ($router->error()) {
+    $router->redirect("web.error", [
+        "errcode" => $router->error()
+    ]);
+}
 
 
 ob_end_flush();

@@ -8,7 +8,7 @@ define("SITE", [
   "desc" => "Aprenda a construir uma aplicação de autenticação em MVC com PHP do Jeito Certo!",
   "domain" => "localauth.com",
   "locale" => "pt_BR",
-  "root" => "http://locahost/codigo-aberto"
+  "root" => "http://localhost/codigo-aberto"
 ]);
 
 if($_SERVER["SERVER_NAME"] === "localhost") {
