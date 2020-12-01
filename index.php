@@ -21,12 +21,9 @@ $router->get("/senha/{email}/{forget}", "Web:reset", "web.reset");
 /**
  * Auth
  */
-$router->get("/auth", function () {
-    echo "ok";
-}, "auth.login");
-$router->get("/auth/register", function () {
-    echo "ok";
-}, "auth.register");
+$router->group(null);
+$router->post("/login", "Auth:login", "auth.login");
+$router->post("/register", "Auth:register", "auth.register");
 
 /**
  * Auth social

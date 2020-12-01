@@ -24,11 +24,17 @@ function routeImage(string $imageUrl): string
 
 /**
  * @param string $path
+ * @param bool $time
  * @return string
  */
-function asset(string $path): string
+function asset(string $path, $time = true): string
 {
-  return SITE["root"] . "/views/assets{$path}";
+  $file = SITE["root"] . "/views/assets/{$path}";
+  $fileOnDir = dirname(__DIR__, 1) . "/views/assets/{$path}";
+  if ($time && file_exists($fileOnDir)) {
+     $file .= "?time=" . filemtime($fileOnDir);
+  }
+  return $file;
 }
 
 /**
