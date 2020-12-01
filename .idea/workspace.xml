@@ -11,18 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56cdc41d-85e7-47ba-b4be-fafe6a5fbb68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Minify.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/_theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/_theme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/forget.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/forget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606823485643</updated>
-      <workItem from="1606823486967" duration="10024000" />
+      <workItem from="1606823486967" duration="13398000" />
     </task>
     <servers />
   </component>
@@ -112,14 +106,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606838421370">
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606843537981">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606838421370" />
-    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606838262889">
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606843537981" />
+    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606842252815">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606838262889" />
+    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606842252815" />
     <state x="2684" y="463" key="NewPhpFileDialog" timestamp="1606826203456">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

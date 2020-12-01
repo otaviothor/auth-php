@@ -3,12 +3,49 @@
 namespace Source\Controllers;
 
 use Source\Models\User;
+use function League\Plates\Util\id;
 
+/**
+ * Class Auth
+ * @package Source\Controllers
+ */
 class Auth extends Controller
 {
+    /**
+     * Auth constructor.
+     * @param $router
+     */
     public function __construct($router)
     {
         parent::__construct($router);
+    }
+
+    public function login($data): void
+    {
+       $email = filter_var($data["email"], FILTER_VALIDATE_EMAIL);
+       $password = filter_var($data["passwd"], FILTER_DEFAULT);
+
+       if (!$email || !$password) {
+           echo $this->ajaxResponse("message", [
+               "type" => "alert",
+               "message" => "Informe seu e-mail e senha para logar!"
+           ]);
+           return;
+       }
+
+       $user = (new User())->find("email = :email", "email={$email}")->fetch();
+       if (!$user || !password_verify($password, $user->passwd)) {
+           echo $this->ajaxResponse("message", [
+               "type" => "error",
+               "message" => "E-mail ou senha inválido!"
+           ]);
+           return;
+       }
+
+       $_SESSION["user"] = $user->id;
+       echo $this->ajaxResponse("redirect", [
+           "url" => $this->router->route("app.home")
+       ]);
     }
 
     public function register($data): void
@@ -22,40 +59,23 @@ class Auth extends Controller
             return;
         }
 
-        if (!filter_var($data["email"], FILTER_VALIDATE_EMAIL)) {
-            echo $this->ajaxResponse("message", [
-                "type" => "error",
-                "message" => "Favor, informe um e-mail válido para continuar!"
-            ]);
-            return;
-        }
-
-        $checkUserEmail = (new User())->find("email = :e", "e={$data["email"]}")->count();
-
-        if ($checkUserEmail) {
-            echo $this->ajaxResponse("message", [
-                "type" => "error",
-                "message" => "Já existe um usuário cadastrado com esse e-mail!"
-            ]);
-            return;
-        }
-
         $user = new User();
         $user->first_name = $data["first_name"];
         $user->last_name = $data["last_name"];
         $user->email = $data["email"];
-        $user->passwd = password_hash($data["passwd"], PASSWORD_DEFAULT);
-        $user->save();
+        $user->passwd = $data["passwd"];
+
+        if (!$user->save()) {
+            echo $this->ajaxResponse("message", [
+                "type" => "error",
+                "message" => $user->fail()->getMessage()
+            ]);
+            return;
+        }
 
         $_SESSION["user"] = $user->id;
-
         echo $this->ajaxResponse("redirect", [
             "url" => $this->router->route("app.home")
         ]);
-    }
-
-    public function login()
-    {
-
     }
 }

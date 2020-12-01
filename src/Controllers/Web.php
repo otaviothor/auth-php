@@ -4,15 +4,21 @@ namespace Source\Controllers;
 
 use stdClass;
 
+
+/**
+ * Class Web
+ * @package Source\Controllers
+ */
 class Web extends Controller
 {
+
     public function __construct($router)
     {
         parent::__construct($router);
 
-//        if (!empty($_SESSION["user"])) {
-//            $this->router->redirect("app.home");
-//        }
+        if (!empty($_SESSION["user"])) {
+            $this->router->redirect("app.home");
+        }
     }
 
     public function login(): void
