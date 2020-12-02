@@ -59,9 +59,18 @@ define("MAIL", [
 /**
  *
  */
-define("FACEBOOK_LOGIN", []);
+define("FACEBOOK_LOGIN", [
+    "clientId" => "",
+    "clientSecret" => "",
+    "redirectUri" => "",
+    "graphApiVersion" =>  ""
+]);
 
 /**
  *
  */
-define("GOOGLE_LOGIN", []);
+define("GOOGLE_LOGIN", [
+    "clientId" => "",
+    "clientSecret" => "",
+    "redirectUri" => "",
+]);
