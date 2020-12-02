@@ -47,7 +47,14 @@ define("SOCIAL", [
 /**
  *
  */
-define("MAIL", []);
+define("MAIL", [
+    "host" => "smtp.gmail.com",
+    "port" => "587",
+    "user" => "",
+    "passwd" => "",
+    "from_name" => "",
+    "from_email" => ""
+]);
 
 /**
  *

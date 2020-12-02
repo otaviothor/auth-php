@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,25 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56cdc41d-85e7-47ba-b4be-fafe6a5fbb68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Support/Email.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Minify.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/_theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/_theme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/forget.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/forget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/theme/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/theme/reset.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -93,7 +89,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606823485643</updated>
-      <workItem from="1606823486967" duration="10024000" />
+<<<<<<< HEAD
+      <workItem from="1606823486967" duration="14235000" />
+      <workItem from="1606904696777" duration="5747000" />
+=======
+      <workItem from="1606823486967" duration="13398000" />
+>>>>>>> d9c6235fb685234d43979e2746a332030503904b
     </task>
     <servers />
   </component>
@@ -110,35 +111,51 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606838421370">
+<<<<<<< HEAD
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606910863346">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606838421370" />
-    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606838262889">
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910863346" />
+    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606906238948">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606838262889" />
+    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606906238948" />
+=======
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606843537981">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606843537981" />
+    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606842252815">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606842252815" />
+>>>>>>> d9c6235fb685234d43979e2746a332030503904b
     <state x="2684" y="463" key="NewPhpFileDialog" timestamp="1606826203456">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2684" y="463" key="NewPhpFileDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606826203456" />
-    <state x="2411" y="185" key="SettingsEditor" timestamp="1606823749204">
+    <state x="2411" y="185" key="SettingsEditor" timestamp="1606906145782">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2411" y="185" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606823749204" />
+    <state x="2411" y="185" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606906145782" />
+    <state x="2356" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606911102272">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2356" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606911102272" />
     <state x="2562" y="280" width="635" height="520" key="find.popup" timestamp="1606834043662">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2562" y="280" width="635" height="520" key="find.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606834043662" />
-    <state x="2536" y="250" key="run.anything.popup" timestamp="1606834663980">
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1606910044926">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606834663980" />
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606839183202">
+    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910044926" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606910461949">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606839183202" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910461949" />
   </component>
 </project>
