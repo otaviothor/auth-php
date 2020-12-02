@@ -90,8 +90,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606823485643</updated>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1606823486967" duration="14235000" />
       <workItem from="1606904696777" duration="5747000" />
+=======
+      <workItem from="1606823486967" duration="13398000" />
+>>>>>>> d9c6235fb685234d43979e2746a332030503904b
 =======
       <workItem from="1606823486967" duration="13398000" />
 >>>>>>> d9c6235fb685234d43979e2746a332030503904b
@@ -115,6 +119,7 @@
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606910863346">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -123,6 +128,16 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606906238948" />
+=======
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606843537981">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606843537981" />
+    <state x="2619" y="264" key="NewPhpClassDialog" timestamp="1606842252815">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2619" y="264" key="NewPhpClassDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606842252815" />
+>>>>>>> d9c6235fb685234d43979e2746a332030503904b
 =======
     <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1606843537981">
       <screen x="1920" y="0" width="1920" height="1080" />
