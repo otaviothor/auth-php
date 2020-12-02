@@ -30,13 +30,16 @@ $router->post("/reset", "Auth:reset", "auth.reset");
 /**
  * Auth social
  */
+$router->group("me");
+$router->get("/", "App:home", "app.home");
+$router->get("/sair", "App:logoff", "app.logoff");
 
 /**
  * Profile
  */
-$router->group("me");
-$router->get("/", "App:home", "app.home");
-$router->get("/sair", "App:logoff", "app.logoff");
+$router->group(null);
+$router->get("/facebook", "Auth:facebook", "auth.facebook");
+$router->get("/google", "Auth:google", "auth.google");
 
 /**
  * Errors
@@ -57,6 +60,5 @@ if ($router->error()) {
         "errcode" => $router->error()
     ]);
 }
-
 
 ob_end_flush();

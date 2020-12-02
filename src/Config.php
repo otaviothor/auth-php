@@ -59,9 +59,18 @@ define("MAIL", [
 /**
  *
  */
-define("FACEBOOK_LOGIN", []);
+define("FACEBOOK_LOGIN", [
+    "clientId" => "1066849287109315",
+    "clientSecret" => "da17be17e7caab72aef4db2cff33297e",
+    "redirectUri" => SITE["root"] . "/facebook",
+    "graphApiVersion" =>  "v4.0"
+]);
 
 /**
  *
  */
-define("GOOGLE_LOGIN", []);
+define("GOOGLE_LOGIN", [
+    "clientId" => "532597038292-mhtek9ht4ejl09r9fi2d5uv7j1jf2l8r.apps.googleusercontent.com",
+    "clientSecret" => "-fk3lkKFqGi0GJT7whU2mfbs",
+    "redirectUri" => SITE["root"] . "/google",
+]);
